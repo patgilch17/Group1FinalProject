@@ -15,8 +15,8 @@ We will be using data from the following sources to analyze various socio-econom
 * [Income: Personal income data by county and metropolitan area, including government social benefits, provided by the Bureau of Economic Analysis](https://www.bea.gov/data/income-saving/personal-income).<br>
 * [Dispensing Rate: US county opioid dispensing rates based on prescriber location, provided by the CDC](https://www.cdc.gov/drugoverdose/rxrate-maps/county2020.html).<br><br>
 
-### ERD Rough Draft
-![ERD Rough Draft]("Olga/Final_Project_SQL_Draft.sql")<br><br>
+## ERD Rough Draft
+A rough draft of our SQL schema can be found at the following path in our repository Olga/Final_Project_SQL_Draft.sql.<br><br>
 ## Research Questions
 Our project aims to answer the following questions:
 ​
