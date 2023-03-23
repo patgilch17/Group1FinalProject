@@ -36,6 +36,8 @@ Official Slack channel:
 * We have a dedicated Slack channel created specifically for this project, allowing us to discuss progress, share resources, and ask questions in real-time.<br>
 * Zoom meetings: We hold regular Zoom meetings to discuss project updates, clarify doubts, and plan our next steps.<br>
 * Email: For more formal communication, we use email to share important documents, updates, and meeting invitations.<br>
+* GitHub: We use GitHub for version control and collaboration, allowing us to work together and manage changes to our project files, including Jupyter Notebooks and PostgreSQL scripts.<br><br>
+By using these communication tools and protocols, we can effectively coordinate our efforts and work together as a team to develop a machine learning model for predicting opioid overdose deaths based on various socio-economic factors and opioid dispensing rates.<br>
 ## Plan for the Machine Learning Model
 ​
 In this segment of our project, we plan to develop a machine learning model to predict total overdose deaths based on a set of socioeconomic and demographic factors. The dataset includes features such as population, education, unemployment, poverty, income, and dispensing rate, which will be used as predictors for the target variable, total overdose deaths.<br> <br>
@@ -67,9 +69,9 @@ To comply with these restrictions, we have:
 While these data use restrictions may impose certain limitations on our analysis, we are confident in our ability to develop a reliable machine learning model that can provide valuable insights into the factors influencing opioid overdose deaths. By adhering to these guidelines, our team aims to maintain the highest standards of ethical research and analysis, while ensuring the privacy and confidentiality of individuals and establishments represented in the data.
 ​
 ## Individual Branches
-Our team members have created individual branches on GitHub for their contributions to the project. 
+Our team members have created individual branches on GitHub for their contributions to the project.<br><br>
 ​
-Our team members have devised a well-structured and balanced approach to work on their individual branches on GitHub, with the goal of completing the ETL process, creating a comprehensive database for the project in PostgreSQL, and compiling and evaluating a machine learning model that effectively answers the project's research questions.
+Our team members have devised a well-structured and balanced approach to work on their individual branches on GitHub, with the goal of completing the ETL process, creating a comprehensive database for the project in PostgreSQL, and compiling and evaluating a machine learning model that effectively answers the project's research questions.<br><br>
 ​
-Each team member will utilize their respective expertise and strengths to ensure that their assigned tasks are completed efficiently and professionally.<br>
+Each team member will utilize their respective expertise and strengths to ensure that their assigned tasks are completed efficiently and professionally.<br><br>
 By doing so, we aim to maintain a high level of quality and consistency throughout the entire project, ultimately producing impactful and reliable research results.
