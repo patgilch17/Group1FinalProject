@@ -34,7 +34,12 @@ Additionally, we will explore the following questions during our data analysis:
 ### Exploratory Data Analysis
 Our EDA process began with the preparation of the individual data sets that we found for the independent variables for our models. Each variable (opioid deaths, opioid prescription rates, education, poverty, unemployment, and personal income) data set needed to be handled differently – some data sets needed to have average rates converted to population values per county, some needed to be cleaned of unnecessary lines of data (such as state values opposed to county values), and some needed to be converted to a wide format as opposed to a long format. These processes allowed us to familiarize ourselves with each data set.<br><br>
 Once the final data set was created using SQL, we had to clean it from null values and from the suppressed values received from the WONDER data set. Additionally, some counties had ‘unreliable’ crude rates. However, we were able to salvage these data points by calculating the crude rate using the total deaths and the total population of the county.<br><br>
-Finally, we are primarily using Tableau to create visualizations that further explore each variable and the relationships between those variables.<br><br>
+Finally, we are primarily using Tableau to create visualizations that further explore each variable and the relationships between those variables such as the table below.<br>
+![Deaths per County](Anastassia/Deaths_per_County.png)
+<br>
+<br>
+### Presentation
+A rough draft of our presentation can be found at Anastassia/Group%201%20Final%20Project%20Presentation.pdf within this repository.
 
 ## Communication Protocols
 Our team communicates and collaborates effectively using a variety of tools and methods, including:<br>
@@ -67,6 +72,8 @@ Team members Milos Popov, Olga Mironova, and Patrick Gilchrist worked on develop
 We understand that time is limited and the goal is to quickly get a functioning machine learning model. Therefore, we want to emphasize that our early versions of the models may not work well. However, we will use as much of the remaining time as possible to improve and refine our models.
 We appreciate any feedback or suggestions from our peers and mentors to help us improve our models.<br><br>
 Additionally, Olga was able to get our database connected in AWS which allows us to all have easy access for our models.<br><br>
+A table showing the correlation amongst our features.
+![Heat Map Showing correlation amongst features](Milos/Machine%20Learning%20Models/correlation%20matrix.png)
 ​
 ## Data Disclaimer and Compliance
 ​
