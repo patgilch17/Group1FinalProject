@@ -29,13 +29,16 @@ Additionally, we will explore the following questions during our data analysis:
 * What is the correlation (if any) of opioid deaths to education (income/poverty/unemployment/prescription rate) in the counties we have chosen?<br>
 * Which of our independent variables shows the strongest correlation to overdose deaths?<br>
 * Which form of opioid is responsible for the most deaths in the counties we have chosen?<br>
-## Communication Protocols
-Our team communicates and collaborates effectively using a variety of tools and methods, including:<br>
+
 ​
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 Our EDA process began with the preparation of the individual data sets that we found for the independent variables for our models. Each variable (opioid deaths, opioid prescription rates, education, poverty, unemployment, and personal income) data set needed to be handled differently – some data sets needed to have average rates converted to population values per county, some needed to be cleaned of unnecessary lines of data (such as state values opposed to county values), and some needed to be converted to a wide format as opposed to a long format. These processes allowed us to familiarize ourselves with each data set.<br><br>
 Once the final data set was created using SQL, we had to clean it from null values and from the suppressed values received from the WONDER data set. Additionally, some counties had ‘unreliable’ crude rates. However, we were able to salvage these data points by calculating the crude rate using the total deaths and the total population of the county.<br><br>
 Finally, we are primarily using Tableau to create visualizations that further explore each variable and the relationships between those variables.<br><br>
+
+## Communication Protocols
+Our team communicates and collaborates effectively using a variety of tools and methods, including:<br>
+
 ​
 Official Slack channel:
 * We have a dedicated Slack channel created specifically for this project, allowing us to discuss progress, share resources, and ask questions in real-time.<br>
