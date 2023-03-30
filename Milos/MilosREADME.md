@@ -29,7 +29,7 @@ By following this plan, we hope to create a robust machine learning model that c
 
 ### Segment 2: Mchine Learning Models <br>
 
-Opioid Overdose Prediction using MLPRegressor with Imputed Values<br?>
+Opioid Overdose Prediction using MLPRegressor with Imputed Values<br>
 I used MLPRegressor with two hidden layers of size 100 and 50 to predict crude death rates for counties. I imputed suppressed values by sampling from normal distributions, the model performed poorly, with an R-squared score of -0.617 and a high Root Mean Squared Error of 20.278.
 
 Opioid Overdose Prediction using Deep Neural Networks (No Suppressed Values)<br>
