@@ -32,6 +32,11 @@ Additionally, we will explore the following questions during our data analysis:
 ## Communication Protocols
 Our team communicates and collaborates effectively using a variety of tools and methods, including:<br>
 ​
+## Exploratory Data Analysis
+Our EDA process began with the preparation of the individual data sets that we found for the independent variables for our models. Each variable (opioid deaths, opioid prescription rates, education, poverty, unemployment, and personal income) data set needed to be handled differently – some data sets needed to have average rates converted to population values per county, some needed to be cleaned of unnecessary lines of data (such as state values opposed to county values), and some needed to be converted to a wide format as opposed to a long format. These processes allowed us to familiarize ourselves with each data set.<br><br>
+Once the final data set was created using SQL, we had to clean it from null values and from the suppressed values received from the WONDER data set. Additionally, some counties had ‘unreliable’ crude rates. However, we were able to salvage these data points by calculating the crude rate using the total deaths and the total population of the county.<br><br>
+Finally, we are primarily using Tableau to create visualizations that further explore each variable and the relationships between those variables.<br><br>
+​
 Official Slack channel:
 * We have a dedicated Slack channel created specifically for this project, allowing us to discuss progress, share resources, and ask questions in real-time.<br>
 * Zoom meetings: We hold regular Zoom meetings to discuss project updates, clarify doubts, and plan our next steps.<br>
@@ -53,6 +58,12 @@ We plan to explore two different machine learning algorithms for this task: a ne
 After evaluating both models, we will compare their performance and choose the best one based on the evaluation metrics. If necessary, we can also explore incorporating other models, such as those that utilize confusion matrices for evaluation, to further improve our predictions and potentially gain additional insights.<br> <br>
 ​
 By following this plan, we hope to create a robust machine learning model that can accurately predict total overdose deaths based on the socioeconomic and demographic factors provided in our dataset.<br> <br>
+​
+### Segment 2 Progress
+Team members Milos Popov, Olga Mironova, and Patrick Gilchrist worked on developing different machine learning models to predict opioid overdose rates. Each model can be found on our separate branches numbered 2. These are preliminary results that can be further optimized in the final segment of our project.<br><br>
+We understand that time is limited and the goal is to quickly get a functioning machine learning model. Therefore, we want to emphasize that our early versions of the models may not work well. However, we will use as much of the remaining time as possible to improve and refine our models.
+We appreciate any feedback or suggestions from our peers and mentors to help us improve our models.<br><br>
+Additionally, Olga was able to get our database connected in AWS which allows us to all have easy access for our models.<br><br>
 ​
 ## Data Disclaimer and Compliance
 ​
