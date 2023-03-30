@@ -29,13 +29,13 @@ By following this plan, we hope to create a robust machine learning model that c
 
 ### Segment 2: Mchine Learning Models <br>
 
-Opioid Overdose Prediction using MLPRegressor with Imputed Values<br>
+#### Opioid Overdose Prediction using MLPRegressor with Imputed Values<br>
 I used MLPRegressor with two hidden layers of size 100 and 50 to predict crude death rates for counties. I imputed suppressed values by sampling from normal distributions, the model performed poorly, with an R-squared score of -0.617 and a high Root Mean Squared Error of 20.278.
 
-Opioid Overdose Prediction using Deep Neural Networks (No Suppressed Values)<br>
+#### Opioid Overdose Prediction using Deep Neural Networks (No Suppressed Values)<br>
 I used Keras API to build a deep neural network with three hidden layers of sizes 128, 64, and 32 to predict crude death rates for counties. I trained the model on non-suppressed data only. The model performed reasonably well, with an R-squared score of 0.640 and a Root Mean Squared Error of 9.561.
 
-MLPRegressor Model for Predicting Opioid Overdose Deaths without Suppressed Values<br>
+#### MLPRegressor Model for Predicting Opioid Overdose Deaths without Suppressed Values<br>
 I used MLPRegressor with two hidden layers of size 100 and 50 to predict crude death rates for counties. I trained the model on non-suppressed data only. The model performed moderately well, with an R-squared score of 0.545 and a Root Mean Squared Error of 10.760.
 
 These results show that the deep neural network model was the most effective model for predicting opioid overdose deaths. The model was able to capture the non-linear relationships between the input features and the target variable, the other two models also showed potential and could be further optimized in the future.
